@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Proyectos Destacados";
+}
+
+<div class="container my-5">
+    <h1 class="text-center mb-4">Proyectos Destacados</h1>
+    <p class="lead text-center mb-5">Descubre algunos de nuestros trabajos más recientes y cómo transformamos espacios.</p>
+
+    <!-- Grid de proyectos -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <!-- Proyecto 1 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/proyecto1.jpg" class="card-img-top" alt="Reforma de baño">
+                <div class="card-body">
+                    <h5 class="card-title">Reforma de Baño</h5>
+                    <p class="card-text">Transformamos este baño antiguo en un espacio moderno y funcional, con azulejos de alta calidad y acabados de lujo.</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <small class="text-muted">Finalizado en Enero 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/proyecto2.jpg" class="card-img-top" alt="Reforma de cocina">
+                <div class="card-body">
+                    <h5 class="card-title">Reforma de Cocina</h5>
+                    <p class="card-text">Creamos una cocina moderna y práctica, con muebles personalizados y electrodomésticos de última generación.</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <small class="text-muted">Finalizado en Diciembre 2023</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/proyecto3.jpg" class="card-img-top" alt="Reforma integral">
+                <div class="card-body">
+                    <h5 class="card-title">Reforma Integral</h5>
+                    <p class="card-text">Renovación completa de una vivienda, incluyendo suelos, paredes, techos y sistemas de climatización.</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <small class="text-muted">Finalizado en Noviembre 2023</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Estilos personalizados -->
+<style>
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+        color: #555;
+    }
+
+    .card-footer {
+        font-size: 0.8rem;
+    }
+</style>

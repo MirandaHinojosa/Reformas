@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Contacto";
+}
+
+<div class="container">
+    <h1 class="text-center my-4">Contacto</h1>
+    <p class="lead text-center">¿Tienes alguna pregunta o quieres solicitar un presupuesto? ¡No dudes en contactarnos!</p>
+
+    <!-- Formulario de contacto -->
+    <section class="my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Envíanos un mensaje</h2>
+                <form method="post" action="/Home/EnviarMensaje" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
+                    </div>
+                  @*   <div class="form-group">
+                        <label for="imagen">Imagen</label>
+                        <input type="file" id="imagen" name="imagen" class="form-control" accept=".jpg, .jpeg, .png" />
+                    </div> *@
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+
+            <!-- Información de contacto -->
+            <div class="col-md-6">
+                <h2>Información de contacto</h2>
+                <p>
+                    Estamos aquí para ayudarte. Puedes contactarnos a través de los siguientes medios:
+                </p>
+                <ul class="list-unstyled">
+                    <li><strong>Dirección:</strong> Calle Reforma, 123, 28001 Madrid, España</li>
+                    <li><strong>Teléfono:</strong> +34 123 456 789</li>
+                    <li><strong>Email:</strong> info@empresadereformas.com</li>
+                    <li><strong>Horario:</strong> Lunes a Viernes, 9:00 - 18:00</li>
+                </ul>
+
+                <!-- Mapa de Google Maps -->
+                <div class="mt-4">
+                    <h3>¿Dónde estamos?</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.123456789012!2d-3.703790384765432!3d40.41677512345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI1JzAwLjQiTiAzwrA0MicyMC4wIlc!5e0!3m2!1ses!2ses!4v1631234567890!5m2!1ses!2ses"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

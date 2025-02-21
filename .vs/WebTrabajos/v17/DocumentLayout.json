@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|c:\\users\\jcmiranda\\source\\repos\\webtrabajos\\webtrabajos\\views\\home\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|solutionrelative:webtrabajos\\views\\home\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|c:\\users\\jcmiranda\\source\\repos\\webtrabajos\\webtrabajos\\views\\home\\nosotros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|solutionrelative:webtrabajos\\views\\home\\nosotros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|c:\\users\\jcmiranda\\source\\repos\\webtrabajos\\webtrabajos\\models\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|solutionrelative:webtrabajos\\models\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|c:\\users\\jcmiranda\\source\\repos\\webtrabajos\\webtrabajos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|solutionrelative:webtrabajos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|c:\\users\\jcmiranda\\source\\repos\\webtrabajos\\webtrabajos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|solutionrelative:webtrabajos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|c:\\users\\jcmiranda\\source\\repos\\webtrabajos\\webtrabajos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|solutionrelative:webtrabajos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|c:\\users\\jcmiranda\\source\\repos\\webtrabajos\\webtrabajos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{640321F0-AE7E-44A8-AB4F-967F52B14F3F}|WebTrabajos\\WebTrabajos.csproj|solutionrelative:webtrabajos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\appsettings.json",
+              "RelativeDocumentMoniker": "WebTrabajos\\appsettings.json",
+              "ToolTip": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\appsettings.json",
+              "RelativeToolTip": "WebTrabajos\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T13:32:47.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Program.cs",
+              "RelativeDocumentMoniker": "WebTrabajos\\Program.cs",
+              "ToolTip": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Program.cs",
+              "RelativeToolTip": "WebTrabajos\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:23:05.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebTrabajos\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebTrabajos\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:22:35.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Models\\EmailService.cs",
+              "RelativeDocumentMoniker": "WebTrabajos\\Models\\EmailService.cs",
+              "ToolTip": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Models\\EmailService.cs",
+              "RelativeToolTip": "WebTrabajos\\Models\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T12:11:03.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Nosotros.cshtml",
+              "DocumentMoniker": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Views\\Home\\Nosotros.cshtml",
+              "RelativeDocumentMoniker": "WebTrabajos\\Views\\Home\\Nosotros.cshtml",
+              "ToolTip": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Views\\Home\\Nosotros.cshtml",
+              "RelativeToolTip": "WebTrabajos\\Views\\Home\\Nosotros.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAB8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T11:48:56.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contacto.cshtml",
+              "DocumentMoniker": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Views\\Home\\Contacto.cshtml",
+              "RelativeDocumentMoniker": "WebTrabajos\\Views\\Home\\Contacto.cshtml",
+              "ToolTip": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Views\\Home\\Contacto.cshtml",
+              "RelativeToolTip": "WebTrabajos\\Views\\Home\\Contacto.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T11:53:33.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebTrabajos\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jcmiranda\\source\\repos\\WebTrabajos\\WebTrabajos\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebTrabajos\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T11:22:07.359Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

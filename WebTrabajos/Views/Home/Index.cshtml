@@ -1,0 +1,98 @@
+﻿@* @{
+    ViewData["Title"] = "Empresa de Reformas";
+}
+
+<div class="container">
+    <h1 class="text-center my-4">Empresa de Reformas</h1>
+
+    <!-- Sección de trabajos realizados -->
+    <section>
+        <h2>Trabajos Realizados</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Antes</h3>
+                <img src="~/images/antes1.jpg" alt="Antes de la reforma" class="img-fluid" />
+            </div>
+            <div class="col-md-6">
+                <h3>Después</h3>
+                <img src="~/images/despues1.jpg" alt="Después de la reforma" class="img-fluid" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section class="my-5">
+        <h2>Solicitar Presupuesto</h2>
+        <form method="post" action="/Home/SolicitarPresupuesto">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+</div> *@
+
+
+
+
+@{
+    ViewData["Title"] = "Empresa de Reformas";
+}
+
+<div class="container">
+    <h1 class="text-center my-4">Empresa de Reformas</h1>
+
+    <!-- Sección de trabajos realizados -->
+    <section>
+        <h2>Trabajos Realizados</h2>
+        <p>Nos especializamos en reformas integrales, ofreciendo servicios de alta calidad para transformar tu hogar o negocio. Nuestro equipo de profesionales se encarga de cada detalle, desde el diseño hasta la ejecución, garantizando resultados excepcionales.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Antes</h3>
+                <img src="~/images/antes1.jpg" alt="Antes de la reforma" class="img-fluid mb-3" />
+                <img src="~/images/antes2.jpg" alt="Antes de la reforma" class="img-fluid" />
+            </div>
+            <div class="col-md-4">
+                <h3>Durante</h3>
+                <img src="~/images/durante1.jpg" alt="Durante la reforma" class="img-fluid mb-3" />
+                <img src="~/images/durante2.jpg" alt="Durante la reforma" class="img-fluid" />
+            </div>
+            <div class="col-md-4">
+                <h3>Después</h3>
+                <img src="~/images/despues1.jpg" alt="Después de la reforma" class="img-fluid mb-3" />
+                <img src="~/images/despues2.jpg" alt="Después de la reforma" class="img-fluid" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section class="my-5">
+        <h2>Solicitar Presupuesto</h2>
+        <form method="post" action="/Home/SolicitarPresupuesto">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required />
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" class="form-control" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+</div>
