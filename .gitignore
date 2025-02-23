@@ -1,0 +1,21 @@
+# Ignorar la carpeta .vs generada por Visual Studio
+.vs/
+
+# Ignorar archivos de compilación y binarios
+bin/
+obj/
+
+# Ignorar archivos de usuario específicos de Visual Studio
+*.user
+*.suo
+
+# Ignorar archivos de configuración local
+appsettings.Development.json
+
+# Ignorar archivos de NuGet
+packages/
+*.nupkg
+
+# Ignorar archivos de logs y temporales
+logs/
+temp/

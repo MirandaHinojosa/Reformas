@@ -1,4 +1,4 @@
-﻿@* @{
+﻿@{
     ViewData["Title"] = "Empresa de Reformas";
 }
 
@@ -7,76 +7,36 @@
 
     <!-- Sección de trabajos realizados -->
     <section>
-        <h2>Trabajos Realizados</h2>
+        <h2 class="mb-4">Trabajos Realizados</h2>
+        <p class="lead">Nos especializamos en reformas integrales, ofreciendo servicios de alta calidad para transformar tu hogar o negocio. Nuestro equipo de profesionales se encarga de cada detalle, desde el diseño hasta la ejecución, garantizando resultados excepcionales.</p>
         <div class="row">
-            <div class="col-md-6">
-                <h3>Antes</h3>
-                <img src="~/images/antes1.jpg" alt="Antes de la reforma" class="img-fluid" />
+            <div class="col-md-4">
+                <h3 class="text-center">Antes</h3>
+                <div class="image-container">
+                    <img src="~/images/antes1.jpg" alt="Antes de la reforma" class="img-fluid rounded mb-3" />
+                    <img src="~/images/antes2.jpg" alt="Antes de la reforma" class="img-fluid rounded" />
+                </div>
             </div>
-            <div class="col-md-6">
-                <h3>Después</h3>
-                <img src="~/images/despues1.jpg" alt="Después de la reforma" class="img-fluid" />
+            <div class="col-md-4">
+                <h3 class="text-center">Durante</h3>
+                <div class="image-container">
+                    <img src="~/images/durante1.jpg" alt="Durante la reforma" class="img-fluid rounded mb-3" />
+                    <img src="~/images/durante2.jpg" alt="Durante la reforma" class="img-fluid rounded" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Después</h3>
+                <div class="image-container">
+                    <img src="~/images/despues1.jpg" alt="Después de la reforma" class="img-fluid rounded mb-3" />
+                    <img src="~/images/despues2.jpg" alt="Después de la reforma" class="img-fluid rounded" />
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Formulario de contacto -->
     <section class="my-5">
-        <h2>Solicitar Presupuesto</h2>
-        <form method="post" action="/Home/SolicitarPresupuesto">
-            <div class="form-group">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" class="form-control" required />
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" class="form-control" required />
-            </div>
-            <div class="form-group">
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-    </section>
-</div> *@
-
-
-
-
-@{
-    ViewData["Title"] = "Empresa de Reformas";
-}
-
-<div class="container">
-    <h1 class="text-center my-4">Empresa de Reformas</h1>
-
-    <!-- Sección de trabajos realizados -->
-    <section>
-        <h2>Trabajos Realizados</h2>
-        <p>Nos especializamos en reformas integrales, ofreciendo servicios de alta calidad para transformar tu hogar o negocio. Nuestro equipo de profesionales se encarga de cada detalle, desde el diseño hasta la ejecución, garantizando resultados excepcionales.</p>
-        <div class="row">
-            <div class="col-md-4">
-                <h3>Antes</h3>
-                <img src="~/images/antes1.jpg" alt="Antes de la reforma" class="img-fluid mb-3" />
-                <img src="~/images/antes2.jpg" alt="Antes de la reforma" class="img-fluid" />
-            </div>
-            <div class="col-md-4">
-                <h3>Durante</h3>
-                <img src="~/images/durante1.jpg" alt="Durante la reforma" class="img-fluid mb-3" />
-                <img src="~/images/durante2.jpg" alt="Durante la reforma" class="img-fluid" />
-            </div>
-            <div class="col-md-4">
-                <h3>Después</h3>
-                <img src="~/images/despues1.jpg" alt="Después de la reforma" class="img-fluid mb-3" />
-                <img src="~/images/despues2.jpg" alt="Después de la reforma" class="img-fluid" />
-            </div>
-        </div>
-    </section>
-
-    <!-- Formulario de contacto -->
-    <section class="my-5">
-        <h2>Solicitar Presupuesto</h2>
+        <h2 class="mb-4">Solicitar Presupuesto</h2>
         <form method="post" action="/Home/SolicitarPresupuesto">
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -96,3 +56,46 @@
         </form>
     </section>
 </div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        color: #343a40;
+    }
+
+    h1, h2, h3 {
+        color: #2c3e50;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+        border-color: #3498db;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+        border-color: #2980b9;
+    }
+
+    .image-container img {
+        transition: transform 0.3s ease;
+        width: 100%;
+        height: 200px; /* Ajusta esta altura según tus necesidades */
+        object-fit: cover; /* Asegura que las imágenes mantengan su relación de aspecto */
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+    .rounded {
+        border-radius: 10px;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+        color: #7f8c8d;
+    }
+</style>
